@@ -51,10 +51,10 @@ body {
     margin-bottom: 20px;
 }
 
-.new-year-image> img {
-height: 344px;
-width: 500px;
-margin-top: 0px;
+.new-year-image>img {
+    height: 344px;
+    width: 500px;
+    margin-top: 0px;
 }
 
 .content-1 {
@@ -204,6 +204,7 @@ margin-top: 0px;
     font-size: 14px;
     font-weight: 500;
 }
+
 .main-title {
     color: #070211;
     font-family: Merriweather;
@@ -211,6 +212,7 @@ margin-top: 0px;
     font-style: normal;
     font-weight: 900;
 }
+
 .main-content {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -218,37 +220,56 @@ margin-top: 0px;
     display: flex;
     font-weight: 400;
 }
-ul>li{
+
+ul>li {
     margin-right: 10px;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
-ul{
+ul {
     display: flex;
 }
 
-.picture{
+.picture {
     height: 400px;
-    width: 400px; 
+    width: 400px;
 }
-.img-container{
-    list-style: none;
-    margin-left: 0px ;
-}  
 
-.footer-container{
+.img-container {
+    list-style: none;
+    margin-left: 0px;
+}
+
+.footer-container {
     margin-top: 100px;
-    height: 200px;
+    height: 450px;
     width: 1500;
     background-color: #070211;
     color: #FFF;
 }
 
+.line {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
 
 
+}
 
+.no-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 150px;
+}
 
+.footer-icon {
+    padding: 25px;
+    text-align: center;
+}
 
-
-
-
+.no-2 {
+    padding: 35px 90px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
