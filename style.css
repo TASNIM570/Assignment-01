@@ -44,9 +44,7 @@ body {
     width: 500px;
     border: 2px solid red;
     text-align: center;
-    /* align-items: center; */
     margin: 0px auto;
-    /* padding-right:5px; */
     margin-bottom: 20px;
 }
 
@@ -151,6 +149,7 @@ body {
     padding: 50px 0px;
     text-align: center;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .info-container {
@@ -176,3 +175,4 @@ body {
     font-size: 15px;
     font-weight: 700;
 }
+
