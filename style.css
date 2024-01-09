@@ -37,8 +37,6 @@ body {
     font-size: 68px;
     font-weight: 800;
     text-align: center;
-
-
 }
 
 .content-container {
@@ -89,13 +87,13 @@ body {
     height: 600px;
     margin-top: 120px;
     margin-left: 0px;
-    background-position: left;
-    /* background-image: url("assets/Vectorrr.png"); */
+    background-image: url("assets/Vectorrr.png");
+    background-position: center;
+    margin-bottom: 50px;
 }
 
-.background-image {
-    width: 1320px;
-    height: 600px;
+#background-image {
+    text-align: center;
     /* width: 900px;
     height: 600px; */
     filter: brightness(50%);
@@ -103,23 +101,26 @@ body {
 
 .greeting-title {
     position: absolute;
-    font-family: Merriweather; 
+    font-family: Merriweather;
     text-align: left;
     padding-top: 80px;
     padding-left: 85px;
-    top: 0%; left: 0%;
+    top: 0%;
+    left: 0%;
     width: 500px;
     font-weight: 900;
     color: #FFF;
     letter-spacing: 3px;
-    font-size: 64px; 
-    font-weight: 900; line-height: 55px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 55px;
 }
 
 .greeting-content {
     position: absolute;
     text-align: left;
-    top: 0%; left: 0%;
+    top: 0%;
+    left: 0%;
     padding-top: 210px;
     padding-left: 85px;
     width: 700px;
@@ -128,36 +129,50 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
 .greeting-btn {
     position: absolute;
     color: #FFF;
     background: none;
-    top: 70%; left: 10%;
+    top: 70%;
+    left: 10%;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
     border: none;
 }
-/* .greeting-content {
-    position: absolute;
-    top: 20%; left: 10%;
-    width: 697px;
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter; font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+
+
+.info {
+    height: 200px;
+    width: 1000px;
+    background-color: rgba(224, 17, 186, 0.185);
+    /* background-color: rgba(255, 0, 0, 0.10) 0%,; */
+    padding: 50px 0px;
+    text-align: center;
+    align-items: center;
 }
 
-.greeting-btn {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    color: #fff;
-    /* opacity: 100%; 
-    background: none;
+.info-container {
+    list-style: none;
+    color: #070211;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 36px;
+    justify-content: center;
+}
+
+.info-abbr {
+    color: #F00;
+}
+
+.info-btn {
+    border-radius: 5px;
+    background: #F00;
+    color: #FFF;
+    padding: 4px 18px;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
-*/
+}
