@@ -13,7 +13,7 @@ body {
     margin-bottom: 70px;
 }
 
-.image {
+.images {
     position: relative;
     filter: brightness(50%);
     background-position: center;
@@ -39,13 +39,22 @@ body {
     text-align: center;
 }
 
+
 .content-container {
+    /* background-color: blue; */
     height: 650px;
     width: 500px;
     border: 2px solid red;
     text-align: center;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    margin-left: 450px;
     margin-bottom: 20px;
+}
+
+.new-year-image> img {
+height: 344px;
+width: 500px;
+margin-top: 0px;
 }
 
 .content-1 {
@@ -85,7 +94,7 @@ body {
     height: 600px;
     margin-top: 120px;
     margin-left: 0px;
-    background-image: url("assets/Vectorrr.png");
+    /* background-image: url("assets/Vectorrr.png"); */
     background-position: center;
     margin-bottom: 50px;
 }
@@ -150,6 +159,8 @@ body {
     text-align: center;
     align-items: center;
     margin-bottom: 200px;
+    margin-top: 770px;
+    margin-left: 200px;
 }
 
 .info-container {
@@ -175,4 +186,11 @@ body {
     font-size: 15px;
     font-weight: 700;
 }
+
+
+
+
+
+
+
 
